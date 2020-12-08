@@ -7,7 +7,7 @@ def private():
     s=''
     letters='qwertyuioplkjhgfdsazxcvbnm'
     letters+=letters.upper()
-    letters+='1234567890'
+    letters+='234567890'
     letters+="!@#$%^&*?/'"
     for i in range(8):
         s+=random.choice(letters)
