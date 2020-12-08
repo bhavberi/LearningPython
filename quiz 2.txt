@@ -1,9 +1,9 @@
-{1:'a',2:'b',3:'b',4:'c',5:'a',6:'b',7:'c',8:'b',9:'b',10:'c',11:'b',12:'b'}
-1. Which key word is used to sort the records of a table in descending order?
-a DESC
-b ORDER BY
-c UPDATE
-d DISTINCT
+{1:'a',2:'b',3:'b',4:'c',5:'a',6:'b',7:'c',8:'b',9:'d',10:'c',11:'b',12:'b'}
+1. Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample) ?
+a) 5
+b) 4
+c) None
+d) Error
 2. 1. Which of the following is a Python tuple?
 a [1, 2, 3]
 b (1, 2, 3)
@@ -34,16 +34,16 @@ a a, b, c = 1000, 2000, 3000
 b a = b = c = 1,000,000
 c a b c = 1000 2000 3000
 d abc = 1,000,000
-8. Which of the following function flushes the files implicitly?
+8. Which of the following function flushes the files implicitly ?
 a flush()
 b close()
 c open()
 d fflush()
-9. Consider the table ->Student(ID, name, dept name, tot_cred), which attribute will form the primary key?
-a Dept
-b ID
-c Total credits
-d Name
+9. Suppose list1 is [3, 5, 25, 1, 3], what is min(list1) ?
+a 3
+b 5
+c 25
+d 1
 10. Which arithmetic operators cannot be used with strings ?
 a +
 b *
