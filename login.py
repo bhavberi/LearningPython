@@ -74,7 +74,9 @@ def main(): #Main method of login.py
         print("\t\t ! ` ` !")
         print("\t\t    '   ")
         print("\t\t   <->  ")
-        time.sleep(1.8)
+        print()
+        print("You can run/download the project from the link \nhttps://github.com/bhavberi/LearningPython\n \tOr\nhttps://repl.it/@bhavberi/LearningPython")
+        time.sleep(2.8)
         os._exit(1)
     else:
         count+=1
