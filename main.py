@@ -37,7 +37,9 @@ def exit():
     print("\t\t ! ` ` !")
     print("\t\t    '   ")
     print("\t\t   <->  ")
-    time.sleep(1.8)
+    print()
+    print("You can download the files from the link\nhttps://github.com/bhavberi/LearningPython\n\tOr\nhttps://repl.it/@bhavberi/LearningPython")
+    time.sleep(2.8)
     os._exit(1)
 def show_all_logindetails():
   obr=open('Login Details.csv','r')
