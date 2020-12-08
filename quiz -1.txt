@@ -1,4 +1,4 @@
-{1:'c',2:'a',3:'c',4:'b',5:'d',6:'b',7:'c',8:'d',9:'b',10:'a',11:'a',12:'c',13:'b'}
+{1:'c',2:'a',3:'c',4:'b',5:'c',6:'b',7:'c',8:'d',9:'c',10:'a',11:'a',12:'c',13:'b',14:'c',15:'c'}
 1. Which of the following cannot be a variable name ?
 a Python
 b MyName
@@ -19,11 +19,11 @@ a print(T[1])
 b T[2] = -29
 c print(max(T))
 d print(len(T))
-5. Which of the following is a DDL command ?
-a SELECT
-b INSERT
-c UPDATE
-d ALTER
+5.  Suppose list1 is [1, 5, 9], what is sum(list1) ?
+a 1
+b 9
+c 15
+d Error
 6. Identify the valid declaration of L -> L = ['Mon', '23', 'hello', '60.5']
 a string
 b list
@@ -39,11 +39,11 @@ a Kbps, Bps, Tbps, Mbps, Gbps
 b Bps, Tbps, Mbps, Kbps, Gbps
 c Kbps, Mbps, Bps, Gbps, Tbps
 d Bps, Kbps, Mbps, Gbps, Tbps
-9. Abhay want to remove the table STORE from the database MyStore. Which command will he use from the following :
-a DELETE FROM store;
-b DROP TABLE store;
-c DROP DATABASE mystore;
-d DELETE store FROM mystore;
+9. Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1]?
+a Error
+b None
+c 25
+d 2
 10. Evaluate (10 > 5 and 7 > 12 or not 18 > 3) ->
 a 0
 b 1
@@ -64,3 +64,13 @@ a math
 b random
 c turtle
 d tkinter
+14. What is the output of this expression, 3*1**3 ?
+a 27
+b 9
+c 3
+d 1
+15. Suppose list1 is [2445,133,12454,123], what is max(list1) ?
+a 2445
+b 133
+c 12454
+d 123
