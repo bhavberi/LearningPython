@@ -1,0 +1,55 @@
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+		           Python Fundamentals
+
+In this, you'll be learning about Python's basics.
+
+		            Python Character Set
+Character set is a set of valid characters that a language can recognize. Python supports Unicode encoding standard. That means, it has the following character set:
+
+1. Letters                       ->  A-Z, a-z
+2. Digits                          -> 0-9
+3. Special Characters -> + - * / ** \ () [] {} // = != == '' "" & # (and many more...)
+4. Whitespaces            -> Blank space, tabs, carriage return, newline
+
+		            Tokens
+The smallest individual unit in a program is called a Token or a Lexical Unit
+
+Python has following tokens:
+1. Keywords
+2. Identifiers(Names)
+3. Literals
+4. Operators
+5. Puntuations
+For more information, visit: https://www.quora.com/What-are-tokens-in-python
+
+		            Barebones of a Python Program
+Let us talk about the basic structure of a Python program-what all it contain.
+
+1. Expressions: An expression is any legal combination of symbols that represents a value.
+Ex:
+(i): 15 (expressions that are values only)
+(ii): a+5 (complex expressions that produce a value when evaluated)
+
+2. Statement: A statement is a programming instruction that does something i.e., some action takes place.
+Ex:
+(i): print('Hello')
+-The above statement calls print function and prints 'Hello' as output.
+(ii): a=15
+
+Note: When a statement executes, it may or may not yield a vallue.
+
+3.Comments: Comments are additional readable information, which can be read by programmer but these are ignored by Python Interpreter. In Python, comments begin with symbol '#' (Pound or hash character) and end with the end of physical line.
+Ex:
+ a=15 # 15 is assigned to variable 'a'
+-The line written after # is a comment.
+
+And there are many more other things which come under topic 'Python Fundamentals'.
+To know more, visit: 
+https://www.learncbse.in/python-programming-fundamentals-class-11-12-introduction/
+or
+https://mycbseguide.com/blog/cbse-revision-notes-class-11-computer-science-python/
+
+Next quiz is a mock test for the final test.
+It will also count towards the final completion of the course.
+To Pass you must score atleast 65% marks.

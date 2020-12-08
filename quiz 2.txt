@@ -1,0 +1,61 @@
+{1:'a',2:'b',3:'b',4:'c',5:'a',6:'b',7:'c',8:'b',9:'b',10:'c',11:'b',12:'b'}
+1. Which key word is used to sort the records of a table in descending order?
+a DESC
+b ORDER BY
+c UPDATE
+d DISTINCT
+2. 1. Which of the following is a Python tuple?
+a [1, 2, 3]
+b (1, 2, 3)
+c {1, 2, 3}
+d {}
+3. Which is the correct operator for power(x,y) ?
+a X^y
+b X**y
+c X^^y
+d None of the mentioned
+4. What will be the output of 'abcd'[2:] ?
+a a
+b ab
+c cd
+d dc
+5. Suppose s is assigned as follows: s='Phagwara', All the following expressions produce the same result except one. Which one?
+a s[::-5] 
+b s[::-1][::-5] 
+c s[::-1][-1]+s[len(s)-1]
+d s[0]+s[-1]
+6. Select the correct statement : print(math.ceil(random.random()))
+a Output is 0
+b Output is -1
+c Output is 1
+d only math library needs to be imported.
+7. Which of the following is an invalid statement?
+a a, b, c = 1000, 2000, 3000
+b a = b = c = 1,000,000
+c a b c = 1000 2000 3000
+d abc = 1,000,000
+8. Which of the following function flushes the files implicitly?
+a flush()
+b close()
+c open()
+d fflush()
+9. Consider the table ->Student(ID, name, dept name, tot_cred), which attribute will form the primary key?
+a Dept
+b ID
+c Total credits
+d Name
+10. Which arithmetic operators cannot be used with strings ?
+a +
+b *
+c –
+d All of the mentioned
+11. Which one of these is floor division ?
+a /
+b //
+c %
+d None of the mentioned
+12.  What is the answer to this expression, 22 % 3 is?
+a 7
+b 1
+c 0
+d 5

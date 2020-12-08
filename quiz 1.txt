@@ -1,0 +1,36 @@
+{1:'b',2:'c',3:'d',4:'b',5:'a',6:'a',7:'d'}
+1. Who was the founder of Python ?
+a Yukihiro Matsumoto
+b Guido van Rossum
+c James Gosling
+d Bill Joy
+2. When was the first version of python released ?
+a 1996
+b 2000
+c 1991
+d 1957
+3. Python was mainly the succesor of which programming language ?
+a FORTRAN
+b Lisp
+c COBOL
+d ABC language
+4. After whom Python was named 'Python' ?
+a Snake Python
+b Monty Python’s Flying Circus
+c After some monument named Python
+d Just randomly
+5. What will happen if you import 'this' in your python IDLE ?
+a A poem is shown
+b An error is shown
+c Nothing happens
+d The info about the python version is shown
+6. What is the domain of the file saved by python ?
+a .py 
+b .rb
+c .python 
+d .php
+7. What are the features of Python ?
+a Object-Oriented Language
+b Interpreted Language
+c Free and Open Source
+d All of the above

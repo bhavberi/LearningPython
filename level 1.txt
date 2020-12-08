@@ -1,0 +1,36 @@
+
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~~ Python ~~
+The World-wide Second Ranked 'Non - Java Based' language, ranked by RedMonk Programming Language Rankings in June,2020 (https://redmonk.com/sogrady/2020/07/27/language-rankings-6-20/),
+is one of the best high-level languages developed till now.
+Python's design philosophy emphasizes code readability with its notable use of significant whitespace.
+Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+
+It is used extensively all over the world.
+Moreover, it has even inspired the creation of many other programming languages also, like swift, ruby, cobra, Go, and many others.
+
+
+Python was developed by Guido Van Rossum in February 1991.
+
+Features of Python:
+
+1. Easy to code:
+Python is a high-level programming language. Python is very easy to learn the language as compared to other languages like C, C#, Javascript, Java, etc. 
+
+2. Object-Oriented Language:
+One of the key features of python is Object-Oriented programming. Python supports object-oriented language and concepts of classes, objects encapsulation, etc.
+
+3. Interpreted Language:
+Python is an Interpreted Language because Python code is executed line by line at a time.
+
+4. Free and Open Source:
+It is open-source, this means that source code is also available to the public. So you can modify, improve/extend it.
+
+References : Wikipedia
+
+This Project is based on providing interactive learning experience to the kids who may like and excel in this future giant language.
+This Project is made by 
+'Bhav Beri' 
+    &&
+'Amanvir Singh'
