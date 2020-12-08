@@ -1,4 +1,4 @@
--~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
 
 		           Python Fundamentals
 
@@ -50,6 +50,10 @@ https://www.learncbse.in/python-programming-fundamentals-class-11-12-introductio
 or
 https://mycbseguide.com/blog/cbse-revision-notes-class-11-computer-science-python/
 
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
 Next quiz is a mock test for the final test.
 It will also count towards the final completion of the course.
 To Pass you must score atleast 65% marks.
+
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
