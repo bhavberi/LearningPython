@@ -1,11 +1,10 @@
+#Admin usernames ('adminab','qwerty') or ('computer','010101')
 import csv
 import os
 import random
 import time
 from getpass import getpass
 import warnings
-
-#Exit function to be called wherever program is terminating
 
 warnings.simplefilter("error", category=Warning)
 
@@ -47,9 +46,9 @@ def main(): #Main method of login.py
     print("To exit, enter 0")
     ch=input("-> ")
     if ch=='':
-      choice=-1
+        choice=-1
     else :
-      choice=int(ch)
+        choice=int(ch)
     if choice==1:
         choice=0
         if signin()==True:
@@ -89,13 +88,12 @@ def main(): #Main method of login.py
             print("Please select correct option")
             main()
 
-def signup(): #For signup of student
-    fields=['username','password','level','package','name','email','phone','city']
+def signup() :
     d=dict()
-
     ob=open('Login Details.csv','a+',newline='')
 
     print('\n',end='')
+
     while True:
         print("Enter the username which you want to take(Atleast 3 letters long)\n(Condition to availability)")
         username=input("-> ")
@@ -140,7 +138,7 @@ def signup(): #For signup of student
         
     while True:
         try:
-          password=getpass("Enter password(min. 6 digits long) -> ")
+          password=getpass("Enter password(min. 6 digits long) (Secured entry) -> ")
         except:
           password=input("Enter password(min. 6 digits long) -> ")
         if len(password)<6:
@@ -149,19 +147,22 @@ def signup(): #For signup of student
         print('\nEntered Password -> ',end='')
         print('*'*len(password))
         try:
-          cpass=getpass("Confirm you password -> ")
+          cpass=getpass("Confirm you password (Secured entry) -> ")
         except:
           cpass=input("Confirm you password -> ")
         if cpass==password:
             break
         print("\nOriginal and Confirmatory Password's doesn't match\nPlease enter again.")
+    
     level='level 1'
+
     while True:
         print("\nEnter 1 for quizzes only package\nEnter 2 for complete package")
         p=(input("-> "))
         if len(p)==1 and p.isdigit():
+            p=int(p)
             break
-    p=int(p)
+
     if p == 1:
           package="Quiz"
     elif p==2:
@@ -195,10 +196,12 @@ def signup(): #For signup of student
     d['email']=email
     d['phone']=phone
     d['city']=city
-    
+
+    fields=['username','password','level','package','name','email','phone','city']
     data=csv.DictWriter(ob,fieldnames=fields)
     data.writerow(d)
     ob.close()
+
 def username_checker(username):
     with open('Login Details.csv','r') as ob:
         data=csv.reader(ob)
@@ -208,6 +211,7 @@ def username_checker(username):
             if i[0]==username:
                 return False
         return True 
+
 def email_checker(email):
     email.strip()
     with open('Login Details.csv','r') as ob:
@@ -228,6 +232,7 @@ def email_checker(email):
                         break
     print("\nPlease check your email")
     return False
+
 def phone_checker(phone):
     if len(phone)<10 or len(phone)>10:
            print("\nEnter complete phone number of 10 digits\nPlease try again")
@@ -242,6 +247,7 @@ def phone_checker(phone):
                 print("\nPhone Number already exists\nPlease try Again")
                 return False
     return True
+
 def captcha(l):
     s=''
     letters='qwertyuiplkjhgfdsazxcvbnm'
@@ -265,7 +271,7 @@ def admin(): #For login of Admin
         print("Wrong Username")
         admin()
     try:
-      password = getpass("Enter password for username "+username+" -> ")
+      password = getpass("Enter password for username "+username+" (Secured entry) -> ")
     except:
       password = input("Enter password for username "+username+" -> ")
     print('\n',end='')
@@ -311,7 +317,7 @@ def signin(): #For login of student
         os._exit(1)
     username=(input("Enter the username of the student -> ")).lower()
     try:
-      password = getpass("Enter password -> ")
+      password = getpass("Enter password (Secured entry) -> ")
     except:
       password = input("Enter password -> ")
     print('\n',end='')
