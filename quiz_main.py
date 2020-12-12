@@ -4,7 +4,7 @@ import time
 #Importing Login module
 import login
 
-def private():
+def private(): #Private Key Generation for use of the main quiz function.
     s=''
     letters='qwertyuioplkjhgfdsazxcvbnm'
     letters+=letters.upper()
@@ -23,7 +23,7 @@ def main(quiz_no=1,passpercent=65):
     file='quiz '+str(quiz_no)+'.txt'
     quiz(file,passpercent)
 
-def quiz(file,passpercent):
+def quiz(file,passpercent): #Main quiz function.
     global _pass
     if passcode!=correct:
         print("Fake")
@@ -77,6 +77,7 @@ def quiz(file,passpercent):
     if marks >=((passpercent/100)*max_no):
         _pass = True
     ob.close()
-if __name__ == '__main__':
+
+if __name__ == '__main__':  #Checking whether program called directly or by any other module
     if login.admin():
         main()
