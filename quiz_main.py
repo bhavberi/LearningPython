@@ -1,6 +1,7 @@
 import random
 import os
 import time
+#Importing Login module
 import login
 
 def private():
@@ -12,6 +13,7 @@ def private():
     for i in range(8):
         s+=random.choice(letters)
     return 'AB '+s
+
 passcode,correct = 0,private()
 _pass=False
 
@@ -20,6 +22,7 @@ def main(quiz_no=1,passpercent=65):
     passcode=correct
     file='quiz '+str(quiz_no)+'.txt'
     quiz(file,passpercent)
+
 def quiz(file,passpercent):
     global _pass
     if passcode!=correct:
@@ -53,15 +56,15 @@ def quiz(file,passpercent):
                 print(q[a],end='')
             user_ans=input("Enter your answer -<a/b/c/d>- -> ")
             if user_ans.isdigit():
-              q=int(user_ans)
-              if q==1:
-                user_ans='a'
-              elif q==2:
-                user_ans='b'
-              elif q==3:
-                user_ans=='c'
-              elif q==4:
-                user_ans=='d'
+                q=int(user_ans)
+                if q==1:
+                    user_ans='a'
+                elif q==2:
+                    user_ans='b'
+                elif q==3:
+                    user_ans=='c'
+                elif q==4:
+                    user_ans=='d'
             if user_ans.lower()==str(ans[i]):
                 print('Correct')
                 marks+=1
