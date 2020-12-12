@@ -302,7 +302,6 @@ def admin(): #For login of Admin
         time.sleep(2.5)
         user=username
         return True
-        #os._exit(1)
     else:
         print("\nWrong Password ")
         admin()
@@ -347,7 +346,6 @@ def signin(): #For login of student
                     global user
                     user=username
                     return True
-                    #os._exit(1)
     print("\nWrong Username or Password Information")
     signin()
 
