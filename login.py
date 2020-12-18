@@ -189,7 +189,7 @@ def signup() :
         print("You have only",3-cap_count,'chances left')
     
     d['username']=username
-    d['password']=password
+    d['password']=password+'#ab'
     d['level']=level
     d['package']=package
     d['name']=name
@@ -319,6 +319,7 @@ def signin(): #For login of student
       password = getpass("Enter password (Secured entry) -> ")
     except:
       password = input("Enter password -> ")
+    password+='#ab'
     print('\n',end='')
     cap_count=0
     while True:
