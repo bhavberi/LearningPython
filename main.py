@@ -180,10 +180,11 @@ def update_password():
                 print('\nEntered Password -> ',end='')
                 print('*'*len(password))
                 try:
-                  cpass=getpass("Confirm you password (Secured entry) -> ")
+                  cpass=getpass("Confirm your password (Secured entry) -> ")
                 except:
-                  cpass=input("Confirm you password -> ")
+                  cpass=input("Confirm your password -> ")
                 if cpass==password:
+                    print('Password changed sucessfully')
                     break
                 print("\nOriginal and Confirmatory Password's doesn't match\nPlease enter again.")
                 ch=input('To try again, press 1\nElse press enter key')
@@ -229,7 +230,7 @@ def menu(): #Main menu function from where all other functions are called.
     print()
     if user_details[2]=='Over':
         print("You have completed your course.\n\nTo restart the course enter 1 or 0\nElse press Enter key")
-        print("To update your passord, press 2\nElse press Enter key")
+        print("To update your password, press 2\nElse press Enter key")
         i=input("-> ")
         if i=='0' or i=='1':
             level_increase()
@@ -244,10 +245,10 @@ def menu(): #Main menu function from where all other functions are called.
         print("To see the login details of all the users till now, press 5")
     elif user_details[3]=='Complete':
         print("To Continue to the module and then quiz, press 1")
-        print("To update your passord, press 2")
+        print("To update your password, press 2")
     else:
         print("To continue to the quiz, press 9")
-        print("To update your passord, press 2")
+        print("To update your password, press 2")
     print("For Source File/Online Interpreter of this program, press 0")
     print("Else press any other key to exit")
     ch=input("-> ") #Input of the choice of the user
