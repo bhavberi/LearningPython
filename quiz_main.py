@@ -56,14 +56,14 @@ def quiz(file,passpercent): #Main quiz function.
                 print(q[a],end='')
             user_ans=input("Enter your answer -<a/b/c/d>- -> ")
             if user_ans.isdigit():
-                q=int(user_ans)
-                if q==1:
+                p=int(user_ans)
+                if p==1:
                     user_ans='a'
-                elif q==2:
+                elif p==2:
                     user_ans='b'
-                elif q==3:
+                elif p==3:
                     user_ans=='c'
-                elif q==4:
+                elif p==4:
                     user_ans=='d'
             if user_ans.lower()==str(ans[i]):
                 print('Correct')
